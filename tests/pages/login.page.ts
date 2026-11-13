@@ -13,6 +13,7 @@ export class LoginPage {
     this.inputUsuario = page.locator('[data-test="username"]');
     this.inputPassword = page.locator('[data-test="password"]');
     this.botonLogin = page.locator('[data-test="login-button"]');
+    this.mensajeError = page.locator('[data-test="error"]');
   }
 
   // Navega a la URL de login
